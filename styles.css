@@ -1,3 +1,26 @@
-.sectionUno {
-  background-color: blanchedalmond;
+#cajaPadre {
+  border: 5px inset tomato;
+}
+.cajaHija {
+  border: 2px solid blue;
+  padding: 10px 20px;
+  margin: 15px;
+}
+#segundaCajaHija {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#h1CajaUno {
+  color: brown;
+}
+#h1CajaDos {
+  text-transform: uppercase;
+  color: bisque;
+}
+#pCajaUno {
+  font-weight: bold;
+}
+.segundoPCajaUno {
+  font-style: italic;
+  text-decoration: underline;
 }
