@@ -1,3 +1,12 @@
 .sectionUno {
   background-color: blanchedalmond;
 }
+.sectionDos {
+  background-color: rgb(153, 32, 121);
+}
+#unico{
+  color: rgb(23, 161, 72);
+}
+.sectionTres {
+  font-weight: bold;
+}
