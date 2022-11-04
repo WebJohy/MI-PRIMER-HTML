@@ -1,26 +1,29 @@
 #cajaPadre {
   border: 5px inset tomato;
+  width: 80vw;
+  height: 60vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: antiquewhite;
 }
+
 .cajaHija {
   border: 2px solid blue;
-  padding: 10px 20px;
-  margin: 15px;
+  width: 25vw;
+  height: 90%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
-#segundaCajaHija {
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-#h1CajaUno {
-  color: brown;
-}
-#h1CajaDos {
-  text-transform: uppercase;
-  color: bisque;
-}
-#pCajaUno {
-  font-weight: bold;
-}
-.segundoPCajaUno {
-  font-style: italic;
-  text-decoration: underline;
+
+.contenidoHijo {
+  border: 2px solid rgb(255, 0, 166);
+  width: 80%;
+  height: 30%;
+  font-size: 8rem;
+  text-align: center;
 }
