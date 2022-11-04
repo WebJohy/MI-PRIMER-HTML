@@ -1,12 +1,32 @@
-.sectionUno {
-  background-color: blanchedalmond;
+#cajaPadre {
+background-color: rgb(34, 18, 218);
+border: 5px inset rgb(242, 116, 12);
+width: 80vw;
+height: 60vh;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: auto;
 }
-.sectionDos {
-  background-color: rgb(153, 32, 121);
+
+.cajaHija {
+background-color: rgb(255, 238, 0);
+border: 5px solid rgb(126, 16, 236);
+width: 25vw;
+height: 90%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
 }
-#unico{
-  color: rgb(23, 161, 72);
-}
-.sectionTres {
-  font-weight: bold;
+
+.contenidoHija{
+background-color: rgb(223, 17, 17);
+border: 3px solid green;
+width: 80%;
+height: 30%;
+text-align: center;
+color: beige;
+font-size: 80px;
+
 }
