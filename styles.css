@@ -1,3 +1,8 @@
+html * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 #cajaPadre {
   background-color: rgb(34, 18, 218);
   border: 5px inset rgb(242, 116, 12);
@@ -26,9 +31,23 @@
   width: 80%;
   height: 30%;
   color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
   font-size: 80px;
   text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+html, body {
+  height: 100%;
 }
