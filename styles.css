@@ -51,3 +51,17 @@ p {
 html, body {
   height: 100%;
 }
+
+/* #imagenHeader {
+  width: 100%;
+  height: 30%;
+} */
+
+.links {
+  background-image: url("./images/descarga.jpg");
+  width: 100%;
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
